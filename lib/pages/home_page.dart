@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                             },
                             child: Text(
                               '+',
-                              style: txtBlack,  // color ta text.styles.dart e declare kora hoiche
+                              style: txtBlack, 
                             ),
                           ),
                         ),
@@ -237,7 +237,7 @@ class _HomePageState extends State<HomePage> {
                             },
                            child: Text(
                              '*',
-                             style: txtBlack,  // color ta text.styles.dart e declare kora hoiche
+                             style: txtBlack,  
                             ),
                           ),
                         ),
@@ -294,7 +294,7 @@ class _HomePageState extends State<HomePage> {
                             },
                             child: Text(
                               '/',
-                              style: txtBlack, //// color ta text.styles.dart e declare kora hoiche
+                              style: txtBlack, 
                             ),
                           ),
                         ),
@@ -340,7 +340,7 @@ class _HomePageState extends State<HomePage> {
                               calculation,
                               child: Text(
                                 '=',
-                                style: txtBlack, //// color ta text.styles.dart e declare kora hoiche
+                                style: txtBlack, 
                               ),
                           ),
                         ),
@@ -357,7 +357,7 @@ class _HomePageState extends State<HomePage> {
 
   calculation(){
     setState(() {
-      //displayString += s; // s hocche je charecter ta sathe kore niye asbo seta
+      //displayString += s; 
 
              if (operator == '+') {
                result = (firstNum + secondNum) as double;
